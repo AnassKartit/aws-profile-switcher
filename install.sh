@@ -14,9 +14,12 @@ if ! command -v aws >/dev/null; then
   exit 1
 fi
 
-# Copy the plugin files to the appropriate directories
-cp -v aws-profile-switcher.plugin.zsh ~/.oh-my-zsh/custom/plugins/aws-profile-switcher
-cp -v aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+# Copy the plugin folder aws-profile-switcher with its files to the appropriate directories
+mkdir -p ~/.oh-my-zsh/custom/plugins/aws-profile-switcher
+#set permissions
+chmod 755 aws-profile-switcher
+#copy files
+cp aws-profile-switcher/* ~/.oh-my-zsh/custom/plugins/aws-profile-switcher
 
 # Add the plugin to the list of plugins in ~/.zshrc
 if ! grep -q "aws-profile-switcher" ~/.zshrc; then
