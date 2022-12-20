@@ -25,6 +25,8 @@ Navigate to the repository directory:
 
 `$ cd aws-profile-switcher`
 
+`chmod +x install.sh`
+
 Run the installation script:
 
 `$ ./install.sh`
