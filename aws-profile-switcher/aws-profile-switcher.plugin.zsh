@@ -1,4 +1,4 @@
-function asp {
+function aps {
   # List the AWS profiles
   local profiles=($(aws configure list-profiles))
 
@@ -13,8 +13,8 @@ function asp {
 #zle used to bind key to function
 
 
-zle -N asp
-bindkey '^gpp' asp
+zle -N aps
+bindkey '^gpp' aps
 
 
 

@@ -3,6 +3,9 @@
 
 A simple ZSH plugin that allows you to easily switch between AWS profiles.
 
+![image description](demo.gif)
+
+
 ## Prerequisites
 
 -   [fzf](https://github.com/junegunn/fzf): a command-line fuzzy finder
