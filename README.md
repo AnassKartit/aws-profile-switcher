@@ -10,6 +10,7 @@ A simple ZSH plugin that allows you to easily switch between AWS profiles.
 
 -   [fzf](https://github.com/junegunn/fzf): a command-line fuzzy finder
 -   [AWS CLI](https://aws.amazon.com/cli/): the command-line interface for AWS
+-   [aws plugin](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/aws/aws.plugin.zsh)
 
 Installation
 Install fzf:
